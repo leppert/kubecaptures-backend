@@ -59,7 +59,7 @@ This is one way to get up-and-running with a local installation.
 ### Configure and Launch Browserkube/KubeCaptures
 
 9. Configure the Helm chart to use our custom KubeCaptures images instead of the Browserkube defaults:
-    - touch `config.yml`
+    - touch `config.yaml`
     - add `main_image: 'webrecorder/kubecaptures-main:dev'`
     - add `driver_image: 'webrecorder/kubecaptures-driver:dev'`
 
